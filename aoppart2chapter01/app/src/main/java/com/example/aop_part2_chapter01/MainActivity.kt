@@ -31,9 +31,15 @@ class MainActivity : AppCompatActivity() {
             val height : Int = heightEditText.text.toString().toInt()
             val weight : Int =weightEditText.text.toString().toInt()
 
+
             Log.d("MainAcitvity","height $height weight $weight")
 
             val intent = Intent(this, ResultActivity::class.java) //현재액티비티,다음 액티비티를 매게변수로 넘겨준다.
+
+            //ResultActivity를 통해 키와 몸무게 값 가져오기
+            intent.putExtra("height",height)
+            intent.putExtra("weight",weight)
+
             startActivity(intent)
         }
     }
