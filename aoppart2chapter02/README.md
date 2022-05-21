@@ -17,6 +17,7 @@ fun main() {
     println(list)
     
 }      
+'''
 
 #### Set 사용하여 로또번호 추출
 ```kotlin
@@ -32,3 +33,4 @@ fun main() {
     }
     println(numberSet)
 }                       
+'''
