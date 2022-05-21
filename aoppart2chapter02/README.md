@@ -1,6 +1,6 @@
 ### 리스트를 사용하여 로또번호 추출
 
-
+```kotlin
 fun main() {
 
     val random = Random() //seed값 추가 하지 않아여 나노타임이 들어가서 같은 결과가 나오지 않음
@@ -17,3 +17,4 @@ fun main() {
     println(list)
     
 }      
+'''
