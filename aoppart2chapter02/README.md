@@ -1,4 +1,4 @@
-### 리스트를 사용하여 로또번호 추출
+#### 리스트를 사용하여 로또번호 추출
 
 ```kotlin
 fun main() {
@@ -18,3 +18,17 @@ fun main() {
     
 }      
 
+#### Set 사용하여 로또번호 추출
+```kotlin
+fun main() {
+    
+    val random = Random() //seed값 추가 하지 않아여 나노타임이 들어가서 같은 결과가 나오지 않음
+    //Set를 사용하여 로또번호 추출
+    val numberSet = mutableSetOf<Int>()
+    
+    while(numberSet.size < 6){
+        val randomNumber = random.nextInt(45)+1//1~45사이의 랜덤값
+        numberSet.add(randomNumber)
+    }
+    println(numberSet)
+}                       
