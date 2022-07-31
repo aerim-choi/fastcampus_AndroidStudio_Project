@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366454992869",
+    "project_id": "fastcampus-usedbookstore",
+    "storage_bucket": "fastcampus-usedbookstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366454992869:android:b4f042d79f1d35b742890c",
+        "android_client_info": {
+          "package_name": "org.techtown.aop_part3_chapter06"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366454992869-d9v1ilmno3h1evphn8dmf3ca67gfc34r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx02Nm-rUaMlIGIMp9MxLDjV7YvDDvoqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366454992869-d9v1ilmno3h1evphn8dmf3ca67gfc34r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
